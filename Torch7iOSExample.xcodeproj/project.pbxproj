@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E15DE2D91C94189600E25C2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15DE2D81C94189600E25C2A /* AppDelegate.swift */; };
+		E15DE2DB1C94189600E25C2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15DE2DA1C94189600E25C2A /* ViewController.swift */; };
+		E15DE2DE1C94189600E25C2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E15DE2DC1C94189600E25C2A /* Main.storyboard */; };
+		E15DE2E01C94189700E25C2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E15DE2DF1C94189700E25C2A /* Assets.xcassets */; };
+		E15DE2E31C94189700E25C2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E15DE2E11C94189700E25C2A /* LaunchScreen.storyboard */; };
+		E15DE2EE1C94189700E25C2A /* Torch7iOSExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15DE2ED1C94189700E25C2A /* Torch7iOSExampleTests.swift */; };
+		E15DE2F91C94189700E25C2A /* Torch7iOSExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15DE2F81C94189700E25C2A /* Torch7iOSExampleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E15DE2EA1C94189700E25C2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E15DE2CD1C94189500E25C2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E15DE2D41C94189500E25C2A;
+			remoteInfo = Torch7iOSExample;
+		};
+		E15DE2F51C94189700E25C2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E15DE2CD1C94189500E25C2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E15DE2D41C94189500E25C2A;
+			remoteInfo = Torch7iOSExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E15DE2D51C94189600E25C2A /* Torch7iOSExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Torch7iOSExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E15DE2D81C94189600E25C2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E15DE2DA1C94189600E25C2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E15DE2DD1C94189600E25C2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E15DE2DF1C94189700E25C2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E15DE2E21C94189700E25C2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E15DE2E41C94189700E25C2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E15DE2E91C94189700E25C2A /* Torch7iOSExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Torch7iOSExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E15DE2ED1C94189700E25C2A /* Torch7iOSExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Torch7iOSExampleTests.swift; sourceTree = "<group>"; };
+		E15DE2EF1C94189700E25C2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E15DE2F41C94189700E25C2A /* Torch7iOSExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Torch7iOSExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E15DE2F81C94189700E25C2A /* Torch7iOSExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Torch7iOSExampleUITests.swift; sourceTree = "<group>"; };
+		E15DE2FA1C94189700E25C2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E15DE2D21C94189500E25C2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E15DE2E61C94189700E25C2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E15DE2F11C94189700E25C2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E15DE2CC1C94189500E25C2A = {
+			isa = PBXGroup;
+			children = (
+				E15DE2D71C94189600E25C2A /* Torch7iOSExample */,
+				E15DE2EC1C94189700E25C2A /* Torch7iOSExampleTests */,
+				E15DE2F71C94189700E25C2A /* Torch7iOSExampleUITests */,
+				E15DE2D61C94189600E25C2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E15DE2D61C94189600E25C2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E15DE2D51C94189600E25C2A /* Torch7iOSExample.app */,
+				E15DE2E91C94189700E25C2A /* Torch7iOSExampleTests.xctest */,
+				E15DE2F41C94189700E25C2A /* Torch7iOSExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E15DE2D71C94189600E25C2A /* Torch7iOSExample */ = {
+			isa = PBXGroup;
+			children = (
+				E15DE2D81C94189600E25C2A /* AppDelegate.swift */,
+				E15DE2DA1C94189600E25C2A /* ViewController.swift */,
+				E15DE2DC1C94189600E25C2A /* Main.storyboard */,
+				E15DE2DF1C94189700E25C2A /* Assets.xcassets */,
+				E15DE2E11C94189700E25C2A /* LaunchScreen.storyboard */,
+				E15DE2E41C94189700E25C2A /* Info.plist */,
+			);
+			path = Torch7iOSExample;
+			sourceTree = "<group>";
+		};
+		E15DE2EC1C94189700E25C2A /* Torch7iOSExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				E15DE2ED1C94189700E25C2A /* Torch7iOSExampleTests.swift */,
+				E15DE2EF1C94189700E25C2A /* Info.plist */,
+			);
+			path = Torch7iOSExampleTests;
+			sourceTree = "<group>";
+		};
+		E15DE2F71C94189700E25C2A /* Torch7iOSExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E15DE2F81C94189700E25C2A /* Torch7iOSExampleUITests.swift */,
+				E15DE2FA1C94189700E25C2A /* Info.plist */,
+			);
+			path = Torch7iOSExampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E15DE2D41C94189500E25C2A /* Torch7iOSExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E15DE2FD1C94189700E25C2A /* Build configuration list for PBXNativeTarget "Torch7iOSExample" */;
+			buildPhases = (
+				E15DE2D11C94189500E25C2A /* Sources */,
+				E15DE2D21C94189500E25C2A /* Frameworks */,
+				E15DE2D31C94189500E25C2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Torch7iOSExample;
+			productName = Torch7iOSExample;
+			productReference = E15DE2D51C94189600E25C2A /* Torch7iOSExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E15DE2E81C94189700E25C2A /* Torch7iOSExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E15DE3001C94189700E25C2A /* Build configuration list for PBXNativeTarget "Torch7iOSExampleTests" */;
+			buildPhases = (
+				E15DE2E51C94189700E25C2A /* Sources */,
+				E15DE2E61C94189700E25C2A /* Frameworks */,
+				E15DE2E71C94189700E25C2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E15DE2EB1C94189700E25C2A /* PBXTargetDependency */,
+			);
+			name = Torch7iOSExampleTests;
+			productName = Torch7iOSExampleTests;
+			productReference = E15DE2E91C94189700E25C2A /* Torch7iOSExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E15DE2F31C94189700E25C2A /* Torch7iOSExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E15DE3031C94189700E25C2A /* Build configuration list for PBXNativeTarget "Torch7iOSExampleUITests" */;
+			buildPhases = (
+				E15DE2F01C94189700E25C2A /* Sources */,
+				E15DE2F11C94189700E25C2A /* Frameworks */,
+				E15DE2F21C94189700E25C2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E15DE2F61C94189700E25C2A /* PBXTargetDependency */,
+			);
+			name = Torch7iOSExampleUITests;
+			productName = Torch7iOSExampleUITests;
+			productReference = E15DE2F41C94189700E25C2A /* Torch7iOSExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E15DE2CD1C94189500E25C2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Adrian Dawid";
+				TargetAttributes = {
+					E15DE2D41C94189500E25C2A = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					E15DE2E81C94189700E25C2A = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = E15DE2D41C94189500E25C2A;
+					};
+					E15DE2F31C94189700E25C2A = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = E15DE2D41C94189500E25C2A;
+					};
+				};
+			};
+			buildConfigurationList = E15DE2D01C94189500E25C2A /* Build configuration list for PBXProject "Torch7iOSExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E15DE2CC1C94189500E25C2A;
+			productRefGroup = E15DE2D61C94189600E25C2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E15DE2D41C94189500E25C2A /* Torch7iOSExample */,
+				E15DE2E81C94189700E25C2A /* Torch7iOSExampleTests */,
+				E15DE2F31C94189700E25C2A /* Torch7iOSExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E15DE2D31C94189500E25C2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E15DE2E31C94189700E25C2A /* LaunchScreen.storyboard in Resources */,
+				E15DE2E01C94189700E25C2A /* Assets.xcassets in Resources */,
+				E15DE2DE1C94189600E25C2A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E15DE2E71C94189700E25C2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E15DE2F21C94189700E25C2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E15DE2D11C94189500E25C2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E15DE2DB1C94189600E25C2A /* ViewController.swift in Sources */,
+				E15DE2D91C94189600E25C2A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E15DE2E51C94189700E25C2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E15DE2EE1C94189700E25C2A /* Torch7iOSExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E15DE2F01C94189700E25C2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E15DE2F91C94189700E25C2A /* Torch7iOSExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E15DE2EB1C94189700E25C2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E15DE2D41C94189500E25C2A /* Torch7iOSExample */;
+			targetProxy = E15DE2EA1C94189700E25C2A /* PBXContainerItemProxy */;
+		};
+		E15DE2F61C94189700E25C2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E15DE2D41C94189500E25C2A /* Torch7iOSExample */;
+			targetProxy = E15DE2F51C94189700E25C2A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E15DE2DC1C94189600E25C2A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E15DE2DD1C94189600E25C2A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E15DE2E11C94189700E25C2A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E15DE2E21C94189700E25C2A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E15DE2FB1C94189700E25C2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E15DE2FC1C94189700E25C2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E15DE2FE1C94189700E25C2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Torch7iOSExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.adrian.dawid.Torch7iOSExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E15DE2FF1C94189700E25C2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Torch7iOSExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.adrian.dawid.Torch7iOSExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E15DE3011C94189700E25C2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Torch7iOSExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.adrian.dawid.Torch7iOSExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Torch7iOSExample.app/Torch7iOSExample";
+			};
+			name = Debug;
+		};
+		E15DE3021C94189700E25C2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Torch7iOSExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.adrian.dawid.Torch7iOSExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Torch7iOSExample.app/Torch7iOSExample";
+			};
+			name = Release;
+		};
+		E15DE3041C94189700E25C2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Torch7iOSExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.adrian.dawid.Torch7iOSExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Torch7iOSExample;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E15DE3051C94189700E25C2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Torch7iOSExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.adrian.dawid.Torch7iOSExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Torch7iOSExample;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E15DE2D01C94189500E25C2A /* Build configuration list for PBXProject "Torch7iOSExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E15DE2FB1C94189700E25C2A /* Debug */,
+				E15DE2FC1C94189700E25C2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E15DE2FD1C94189700E25C2A /* Build configuration list for PBXNativeTarget "Torch7iOSExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E15DE2FE1C94189700E25C2A /* Debug */,
+				E15DE2FF1C94189700E25C2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E15DE3001C94189700E25C2A /* Build configuration list for PBXNativeTarget "Torch7iOSExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E15DE3011C94189700E25C2A /* Debug */,
+				E15DE3021C94189700E25C2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E15DE3031C94189700E25C2A /* Build configuration list for PBXNativeTarget "Torch7iOSExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E15DE3041C94189700E25C2A /* Debug */,
+				E15DE3051C94189700E25C2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E15DE2CD1C94189500E25C2A /* Project object */;
+}
