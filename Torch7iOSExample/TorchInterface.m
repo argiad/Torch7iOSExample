@@ -15,12 +15,17 @@ lua_State *init_torch_vm(){
     
     luaL_openlibs(L);
     
-    // Update LUA_PATH in order for 'require' to work within lua scripts
-    NSString* luaPackagePath = [NSString stringWithFormat:@"package.path='/?.lua;%@/framework/lua/?.lua;'.. package.path", [[NSBundle mainBundle] resourcePath]];
+    /*
+     * Set the Lua package path to include the framework/lua folder, so that the require command in lua works as expeceted.
+     */
+    NSString *luaPackagePath = [NSString stringWithFormat:@"package.path='/?.lua;%@/framework/lua/?.lua;'.. package.path", [[NSBundle mainBundle] resourcePath]];
     if (luaL_dostring(L, [luaPackagePath UTF8String]) != 0) {
-        NSLog(@"error (updating LUA_PATH): %s", lua_tostring(L, -1));
+        NSLog(@"Could not update LUA path, error message: %s", lua_tostring(L, -1));
     }
     
+    /*
+     * Load the torch C library into lua and set up the wrappers,
+     */
     luaopen_libtorch(L);
     run_torch_script(L,@"/framework/lua/torch/init.lua");
     
