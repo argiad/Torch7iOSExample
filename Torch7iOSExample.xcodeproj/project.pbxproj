@@ -17,6 +17,8 @@
 		E15DE3071C941B4700E25C2A /* Torch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E15DE3061C941B4700E25C2A /* Torch.framework */; };
 		E15DE30A1C941BDC00E25C2A /* TorchInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = E15DE3091C941BDC00E25C2A /* TorchInterface.m */; };
 		E15DE30D1C941EEC00E25C2A /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E15DE30C1C941EEC00E25C2A /* Accelerate.framework */; };
+		E15DE30F1C941F7400E25C2A /* framework in Resources */ = {isa = PBXBuildFile; fileRef = E15DE30E1C941F7400E25C2A /* framework */; };
+		E15DE3111C9420B900E25C2A /* lua in Resources */ = {isa = PBXBuildFile; fileRef = E15DE3101C9420B900E25C2A /* lua */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		E15DE3091C941BDC00E25C2A /* TorchInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TorchInterface.m; sourceTree = "<group>"; };
 		E15DE30B1C941BF600E25C2A /* TorchInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TorchInterface.h; sourceTree = "<group>"; };
 		E15DE30C1C941EEC00E25C2A /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		E15DE30E1C941F7400E25C2A /* framework */ = {isa = PBXFileReference; lastKnownFileType = folder; name = framework; path = "../torch-ios/framework"; sourceTree = "<group>"; };
+		E15DE3101C9420B900E25C2A /* lua */ = {isa = PBXFileReference; lastKnownFileType = folder; path = lua; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 		E15DE2D71C94189600E25C2A /* Torch7iOSExample */ = {
 			isa = PBXGroup;
 			children = (
+				E15DE3101C9420B900E25C2A /* lua */,
+				E15DE30E1C941F7400E25C2A /* framework */,
 				E15DE2D81C94189600E25C2A /* AppDelegate.swift */,
 				E15DE2DA1C94189600E25C2A /* ViewController.swift */,
 				E15DE2DC1C94189600E25C2A /* Main.storyboard */,
@@ -247,6 +253,8 @@
 				E15DE2E31C94189700E25C2A /* LaunchScreen.storyboard in Resources */,
 				E15DE2E01C94189700E25C2A /* Assets.xcassets in Resources */,
 				E15DE2DE1C94189600E25C2A /* Main.storyboard in Resources */,
+				E15DE3111C9420B900E25C2A /* lua in Resources */,
+				E15DE30F1C941F7400E25C2A /* framework in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

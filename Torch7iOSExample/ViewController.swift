@@ -14,7 +14,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         let vm = init_torch_vm()
-        print(vm.hashValue)
+        run_torch_script(vm, "/lua/main.lua")
     }
 
     override func didReceiveMemoryWarning() {
